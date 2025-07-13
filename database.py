@@ -17,7 +17,7 @@ print("DB User:", os.getenv("POSTGRES_USER"))
 
 # Database configuration
 DB_CONFIG = {
-    'host': os.getenv('POSTGRES_HOST', 'localhost'),
+    'host': os.getenv('POSTGRES_HOST', 'db'),
     'port': int(os.getenv('POSTGRES_PORT', 5432)),
     'user': os.getenv('POSTGRES_USER', 'postgres'),
     'password': os.getenv('POSTGRES_PASSWORD', 'password'),
