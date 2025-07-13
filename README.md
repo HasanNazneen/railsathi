@@ -8,16 +8,16 @@ Setting Up:
 
 1.	Clone the repository
 2.	git clone git clone https://github.com/s2pl/RailSathiBE.git
-3.	>>cd RailSathiBE
+3.	cd RailSathiBE
 4.  Create Virtual environment.
 5.  Install dependencies
-    >>pip install -r requirements.txt
+    pip install -r requirements.txt
 6. Create required files like Dockerfile, docker-compose.yml, .env etc.
 7.  Build and run conatiners 
-    >>docker-compose up --build 
-    >>docker-compose up
+    docker-compose up --build 
+    docker-compose up
         or
-    >>docker-compose up -d (in detached mode)
+    docker-compose up -d (in detached mode)
 8.	Access the application
         Swagger UI: http://localhost:8000/swagger/
         Django Admin: http://localhost:8000/admin/
@@ -25,7 +25,7 @@ Setting Up:
 7.	Create a superuser
     docker-compose exec web python manage.py createsuperuser
 9.	Stop containers
-    >>docker-compose down
+    docker-compose down
 
 Features : 
 
